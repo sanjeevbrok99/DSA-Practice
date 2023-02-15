@@ -46,3 +46,5 @@ int main()
 }
 
 // This code is contributed by Samim Hossain Mondal.
+//#solution-2 - Two Sum using Binary Search:
+
