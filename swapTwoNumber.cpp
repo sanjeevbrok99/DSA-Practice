@@ -18,7 +18,7 @@ int main(){
     cout << "after swapping a = "<<a<<",b = "<<b<< endl;
     return 0;
 }
-
+// Solution : 2
 // int swap_two_number1(int a,int b){
 //         int temp;
 //         temp = a,
@@ -31,5 +31,14 @@ int main(){
 //     cout << "befor swapping a = "<<a<<",b = "<<b<< endl;
 //     swap_two_number1(a,b);
 //     cout << "after swapping a = "<<a<<",b = "<<b<< endl;
+//     return 0;
+// }
+
+//# solution: 3
+// int main(){
+//     int a = 3 , b = 5;
+//     cout << "befor swapping a = " << a << " b = "  << b << endl;
+//     swap(a, b);
+//     cout << " after swapping a = " << a << " b = " << b << endl;
 //     return 0;
 // }
