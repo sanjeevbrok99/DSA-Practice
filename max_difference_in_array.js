@@ -26,10 +26,6 @@ const funct = (arr)=>{
     let max_diff = arr[1]-arr[0];
     let min = arr[0]
     for(let i =0 ;i<arr.length;i++){
-        // for(let j =i+1;j<arr.length;j++){
-        //     if((arr[j]-arr[i])>max_diff)
-        //     max_diff = arr[j]-arr[i]
-        // }
        if(arr[i]-min>max_diff){
            max_diff = arr[i]-min
        } 
