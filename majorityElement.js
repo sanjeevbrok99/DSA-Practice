@@ -40,3 +40,8 @@ const majorityElement  = (arr)=>{
 let array = [3, 3, 4, 2, 4, 4, 2, 4, 4]
 majorityElement(array)
 
+// Majority Element Using Moore’s Voting Algorithm:
+// This is a two-step process:
+
+// The first step gives the element that may be the majority element in the array. If there is a majority element in an array, then this step will definitely return majority element, otherwise, it will return candidate for majority element.
+// Check if the element obtained from the above step is the majority element. This step is necessary as there might be no majority element. 
