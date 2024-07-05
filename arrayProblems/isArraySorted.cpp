@@ -23,22 +23,22 @@ using namespace std;
 
 // solution 2
 
-bool isArraySorted(int arr[],int n){
-    int i;
-    if(n==0||n == 1){
-        cout<<"Array is sorted"<<endl;
-    }
-    for(i = 1; i < n; i++)
-        if(arr[i-1]>arr[i])
-        return false;
-    return true;
-}
-int main(){
-    int arr[] = {1,2,3,4,8,6,7,8};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    if(isArraySorted(arr,n)==true)
-    cout<< "Array is sorted"<<endl;
-    else
-    cout<< "Array is not sorted"<<endl;
+// bool isArraySorted(int arr[],int n){
+//     int i;
+//     if(n==0||n == 1){
+//         cout<<"Array is sorted"<<endl;
+//     }
+//     for(i = 1; i < n; i++)
+//         if(arr[i-1]>arr[i])
+//         return false;
+//     return true;
+// }
+// int main(){
+//     int arr[] = {1,2,3,4,8,6,7,8};
+//     int n = sizeof(arr)/sizeof(arr[0]);
+//     if(isArraySorted(arr,n)==true)
+//     cout<< "Array is sorted"<<endl;
+//     else
+//     cout<< "Array is not sorted"<<endl;
 
-}
+// }
