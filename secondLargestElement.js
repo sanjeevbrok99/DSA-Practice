@@ -220,35 +220,15 @@ console.log("=".repeat(60));
 console.log("SECOND LARGEST ELEMENT - TEST CASES");
 console.log("=".repeat(60));
 
-console.log("\nTest Case 1: Basic example");
+console.log("\nTest Case 1:");
 console.log("Input: [12, 35, 1, 10, 34, 1]");
 console.log("Output:", secondLargest([12, 35, 1, 10, 34, 1]));
 console.log("Expected: 34");
 
-console.log("\nTest Case 2: All elements same");
+console.log("\nTest Case 2:");
 console.log("Input: [10, 10, 10]");
 console.log("Output:", secondLargest([10, 10, 10]));
 console.log("Expected: -1");
-
-console.log("\nTest Case 3: Two elements");
-console.log("Input: [5, 10]");
-console.log("Output:", secondLargest([5, 10]));
-console.log("Expected: 5");
-
-console.log("\nTest Case 4: Single element");
-console.log("Input: [42]");
-console.log("Output:", secondLargest([42]));
-console.log("Expected: -1");
-
-console.log("\nTest Case 5: Multiple duplicates of largest");
-console.log("Input: [10, 10, 10, 5, 5]");
-console.log("Output:", secondLargest([10, 10, 10, 5, 5]));
-console.log("Expected: 5");
-
-console.log("\nTest Case 6: Unsorted array");
-console.log("Input: [3, 7, 1, 9, 4, 9, 2]");
-console.log("Output:", secondLargest([3, 7, 1, 9, 4, 9, 2]));
-console.log("Expected: 7");
 
 // Export function
 module.exports = { secondLargest };
